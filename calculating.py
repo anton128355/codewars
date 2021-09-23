@@ -1,5 +1,4 @@
 # Calculating with Functions
-
 lst = []
 
 
@@ -87,7 +86,6 @@ def divided_by(*args):
 	return result()
 
 
-
 def result():
 	global lst
 	if len(lst) == 3:
@@ -107,6 +105,3 @@ def result():
 			res = lst[0] // lst[2]
 			lst = []
 			return res
-
-
-print(four(plus(nine())))
